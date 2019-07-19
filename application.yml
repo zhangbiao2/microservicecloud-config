@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev            #开发环境
+  application:
+    name: microservercloud-config-atgugu-dev
+---
+spring:
+  profiles: test           #测试环境
+  application:
+    name: microservercloud-config-atgugu-test
+
+#需要保持为UTF-8编码
